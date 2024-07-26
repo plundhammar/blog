@@ -1,0 +1,4 @@
+[submodule "plundhammarblog/public"]
+	path = plundhammarblog/public
+	url = https://github.com/plundhammar/plundhammar.github.io.git
+	branch = main

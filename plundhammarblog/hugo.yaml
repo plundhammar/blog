@@ -1,0 +1,44 @@
+baseURL : 'https://plundhammar.github.io/'
+languageCode : en-us
+title : 'plundhammar'
+theme : PaperMod
+
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+
+params:
+  homeInfoParams:
+    title: P. Lundhammar
+    Content: This is my personal blog where I will collect notes and thoughts about what I’m doing at the moment. 
+  socialIcons:
+    - name: github
+      url: "https://github.com/plundhammar"
+    - name: linkedin
+      url: "linkedin.com/in/per-lundhammar-70140a19a"
+  math: true
+# needed to ensure different manifestations of the site work. 
+outputs:
+  home:
+  # To create webpages. 
+    - HTML
+  # To create an index.json so search works on the site
+    - JSON
+
